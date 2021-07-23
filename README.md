@@ -1,7 +1,7 @@
 # zapci-dojo
 ZAPCI DefectDojo
 
-# Usage Spiderscan
+# Spiderscan
 - Clone Repository
 - cd spiderscan/
 - Running test
