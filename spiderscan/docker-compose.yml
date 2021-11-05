@@ -15,7 +15,7 @@ services:
    - TARGET_URL=${TARGET_URL}
    - DOJOKEY=${DOJOKEY}
    - DOJOIP=${DOJOIP}
-   - EGID=${EGID}
+   - PRODNAME=${PRODNAME}
   volumes:
    - "$PWD/output:/app/output"
   depends_on:
