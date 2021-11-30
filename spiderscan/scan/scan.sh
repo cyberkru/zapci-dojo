@@ -16,7 +16,7 @@ echo "Ready for testing"
 MAX=`curl "$PROXY_URL/JSON/spider/action/setOptionMaxDuration/?Integer=100"`
 
 echo "scanning..."
-SCANID=`curl "$PROXY_URL/JSON/spider/action/scan/?url=https://www.example.com&contextName=&recurse="`
+SCANID=`curl "$PROXY_URL/JSON/spider/action/scan/?url=$TARGET_URL&contextName=&recurse="`
 
 #check status
 
