@@ -3,6 +3,10 @@ ZAPCI DefectDojo
 
 # Spiderscan
 - Clone Repository
+- install docker-compose
+  ```
+  sudo apt install docker-compose
+  ```
 - cd spiderscan/
 - Running test
 ```
