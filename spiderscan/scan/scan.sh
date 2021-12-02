@@ -28,7 +28,7 @@ while [ "$STATUS" != '"100"' ]
 do
 STATUS=`curl --fail "$PROXY_URL/JSON/spider/view/status/?scanId=$SCANID" 2> /dev/null | jq '.status'`
 sleep 2
-echo "current status: $STATUS"
+echo "current status: $STATUS of 100%......"
 
 if [ -z "$STATUS" ]
 then
