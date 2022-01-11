@@ -2,7 +2,7 @@
 
 start=$(date +%s)
 echo "URL zap: $PROXY_URL"
-echo "DOJOIP: $DOJOIP"
+echo "DOJOURL: $DOJOURL"
 echo "Target: $TARGET_URL"
 
 echo "ZAP is ready"
