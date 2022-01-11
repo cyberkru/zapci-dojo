@@ -14,7 +14,7 @@ services:
    - PROXY_URL=http://zap:8090
    - TARGET_URL=${TARGET_URL}
    - DOJOKEY=${DOJOKEY}
-   - DOJOIP=${DOJOIP}
+   - DOJOURL=${DOJOURL}
    - PRODNAME=${PRODNAME}
   volumes:
    - "$PWD/output:/app/output"
